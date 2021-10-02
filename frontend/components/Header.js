@@ -10,7 +10,6 @@ export default function Header() {
         <Logo>
           <Link href="/">Sick Fits</Link>
         </Logo>
-        &nbsp;
       </div>
       <div className="sub-bar">
         <p>Search</p>
