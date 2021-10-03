@@ -1,19 +1,19 @@
 import styled from 'styled-components';
 
-const Header = styled.header`
+const HeaderStyles = styled.header`
   .bar {
+    border-bottom: 10px solid var(--black, black);
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 10px solid var(--black, black);
+    align-items: stretch;
   }
 
   .sub-bar {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto;
     border-bottom: 1px solid var(--black, black);
   }
 `;
 
-export default Header;
+export default HeaderStyles;

@@ -1,8 +1,9 @@
-// eslint-disable-next-line react/display-name
+import Products from '../components/Products';
+
 export default function ProductsPage() {
   return (
     <div>
-      <p>Products</p>
+      <Products />
     </div>
   );
 }
