@@ -1,6 +1,9 @@
-import Page from '../components/Page';
+import CreateProduct from '../components/CreateProduct';
 
-// eslint-disable-next-line react/display-name
 export default function SellPage() {
-  return <p>Sell</p>;
+  return (
+    <div>
+      <CreateProduct />
+    </div>
+  );
 }
