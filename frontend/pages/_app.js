@@ -3,6 +3,7 @@ import { ApolloProvider } from '@apollo/client';
 import Router from 'next/router';
 import PropTypes from 'prop-types';
 import NProgress from 'nprogress';
+import Head from 'next/head';
 
 import Page from '../components/Page';
 import '../components/styles/nprogress.css';
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps, apollo }) {
   return (
     <ApolloProvider client={apollo}>
       <Page>
+        <Head>SICK FITS</Head>
         <Component {...pageProps} />
       </Page>
     </ApolloProvider>

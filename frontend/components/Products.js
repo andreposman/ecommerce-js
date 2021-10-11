@@ -4,7 +4,7 @@ import Product from './Product.js';
 import SkeletonLoader from './SkeletonLoader.js';
 import ProductsList from './styles/ProductListStyles.js';
 
-const ALL_PRODUCTS_QUERY = gql`
+export const ALL_PRODUCTS_QUERY = gql`
   query ALL_PRODUCTS_QUERY {
     allProducts {
       id
