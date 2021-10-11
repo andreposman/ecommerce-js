@@ -4,6 +4,7 @@ import ItemStyles from './styles/ItemStyles';
 import TitleStyles from './styles/Title';
 import PriceTagStyles from './styles/PriceTag';
 import formatMoney from '../lib/formatMoney';
+import DeleteProduct from './DeleteProduct';
 // import SkeletonLoader from './SkeletonLoader.js';
 
 export default function Product({ product }) {
@@ -31,6 +32,7 @@ export default function Product({ product }) {
         >
           Edit ✏️
         </Link>
+        <DeleteProduct id={product.id}>Delete</DeleteProduct>
       </div>
     </ItemStyles>
   );
