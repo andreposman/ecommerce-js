@@ -5,7 +5,6 @@ import TitleStyles from './styles/Title';
 import PriceTagStyles from './styles/PriceTag';
 import formatMoney from '../lib/formatMoney';
 import DeleteProduct from './DeleteProduct';
-import Pagination from './Pagination';
 // import SkeletonLoader from './SkeletonLoader.js';
 
 export default function Product({ product }) {
